@@ -8,6 +8,10 @@ pico-phoenix: the arcade game Phoenix (Amstar, 1980) for RP2350 boards with HDMI
 
 The game ROMs are not included. Copy MAME's `phoenix.zip` to `/roms/arcade/PHOENIX` on the SD card, as it is or unzipped. See the [README](https://github.com/PicoPlus-devel/pico-phoenix#game-data).
 
+# v0.2.3
+
+- Fixed: on the Adafruit Fruit Jam and other boards with PIO-USB, USB controllers were often not found at start-up.
+
 # v0.2.2
 
 - The release now includes updateAll.exe, which installs the ROM set on the SD card from a Windows computer. The readme explains how to use it.
